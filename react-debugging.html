@@ -65,8 +65,9 @@
         // No need to change anything ABOVE this line ^
 
         return (
+          <>
           <h1>Draw a Card</h1>
-          <button onClick={}>
+          <button onClick={drawCard}>
             Click to Draw a Card
           </button>
           <button onclick={shuffle}>
@@ -81,9 +82,10 @@
               )
             })}
           </div>
+          </>
         )
       }
-
+      // export default App;
       // No need to change anything below this line
 
       const domContainer = document.querySelector('#react-container')
